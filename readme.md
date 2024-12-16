@@ -1,16 +1,17 @@
-# Arduino Beispiel Projekt
-Hier steht eine Beschreibung zu eurem Projekt. Was kann euer Arduino wie wird der Arduino genutz. 
+# Arduino Futterautomat Projekt
+Das Ziel ist es, ein Futterautomat für meine Katzen zu simulieren, welcher in festgelegten Intervallen oder per nanueller Steuerung Futter ausgibt.
+
 
 ## Anforderungen
 | Anforderung                                                                                                         | Muss | Wunsch |Verantwortung|
 | ------------------------------------------------------------------------------------------------------------------- | ---- | ------ |-------------|
-| Arduino1 muss Arduino2 ein Signal senden und Arduino2 muss dieses Signal empfangen                                  | X    |        |Person1      |
-| Sobald Arduino2 das Signal empfängt leuchtet eine LED auf Arduino2                                                  | X    |        |Person2      |
-| Arduino1 misst die Temperatur und diese wird auf dem Display ausgegeben                                             | X    |        |Person2      |
-| Wenn die Temperatur über 30 Grad Celsius ist sendet Arduino1 ein Signal an Arduino2 um den Ventilator einzuschalten | X    |        |Person1      |
-| Alle aktivierten Aktionen sollen nach 10 Sekunden automatisch beendet werden                                        | X    |        |Person2      |
-| Arduino2 kann die gemessene Temperatur von Arduino1 auch ausgeben                                                   |      | X      |Person1      |
-| Bei einem Problem wir dein Alarm auf beiden Arduinos ausgelöst                                                      |      | X      |Person2      |
+| Arduino soll Futter im Intervall von 12h ausgeben                                                                   | X    |        |Person1      |
+| Arduino soll ein Signal in Ton und Licht ausgeben, sobald der Automat aktiv ist                                     | X    |        |Person1      |
+| Der Automat soll auch manuell bediet werden können, per Knopfdruck                                                  | X    |        |Person1      |
+| Das öffnen der Klappe soll durch x per servomotor simuliert werden                                                  | X    |        |Person1      |
+| Der Automat soll einfach und intuitiv zu Bedienen sein                                                              | X    |        |Person1      |
+| Per Anzeige den Status oder letzten Fütterungszeitpunkt anzeigen                                                    |      | X      |Person1      |
+| Erweiterbar um eine Tränke, mit Lichtsignal, wenn Wasserstand zu tief oder einfach leer                             |      | X      |Person1      |
 
 
 ## Projektplan
